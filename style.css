@@ -1,0 +1,111 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(135deg,#433D8B,#0F67B1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card{
+    height: 60%;
+    width: 30%;
+    background-color: aliceblue;
+    border-radius: 2%;
+}
+
+label{
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input{
+    flex: 1;
+    width: 90%;
+    max-height: 2rem;
+}
+
+form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#submit{
+    width: 90%;
+    height: 2rem;
+    margin-top: 1rem;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-radius: 5%;
+}
+
+#timer{
+    display: none;
+    height: 60%;
+    width: 60%;
+    background-color: aliceblue;
+    border-radius: 5%;
+    padding: 5%;
+}
+
+#row1,#row2,#row3{
+    width: 90%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#row1{
+    font-weight: bold;
+}
+
+#row2,#row3{
+    justify-content: space-around;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.number{
+    font-size: 5rem;
+}
+
+#timer button{
+    margin-top: 0.5rem;
+    flex: 1;
+}
+
+#success{
+    height: 40%;
+    width: 50%;
+    background-color: aliceblue;
+    border-radius: 2%;
+    display: none;
+}
+
+#success h1{
+    text-align: center;
+    color: green;
+}
+
+#success3{
+    display: flex;
+}
+
+#success3 button{
+    flex:1
+}
+
